@@ -1,5 +1,21 @@
 #page-home{
-	h1{
-	font-size: 50pt;
-}
+
+	h1, h2, h3, h4, h5, h6{
+		margin : 0px;
+
+	}
+	.section{
+		h1, h2, h3, h4, h5, h6{
+			margin : 5px;
+
+		}
+	}
+
+	&h1{
+		font-size: 60pt;
+	}
+
+	&h3{
+		font-size: 30pt;
+	}
 }
