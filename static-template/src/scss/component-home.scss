@@ -1,8 +1,23 @@
+
 #page-home{
 
-	h1, h2, h3, h4, h5, h6{
-		margin : 0px;
+	.bp-header {
+padding: 4em 10vw 2em;
+	}
 
+	p{
+		width: 60%;
+		font-size: 10pt;
+	}
+	h1{
+		font-size: 60pt;
+	}
+	h2{
+		margin: 0px;
+	}
+	h3{
+		font-size: 20pt;
+		margin: 0px;
 	}
 	.section{
 		h1, h2, h3, h4, h5, h6{
@@ -11,11 +26,4 @@
 		}
 	}
 
-	&h1{
-		font-size: 60pt;
-	}
-
-	&h3{
-		font-size: 30pt;
-	}
 }
