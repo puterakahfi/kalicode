@@ -15,7 +15,6 @@ gulp.task('browser-sync', function() {
 
 gulp.task('default',["sass","watch"]); 
 
- 
 gulp.task('sass', function () {
   return gulp.src('./src/sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
