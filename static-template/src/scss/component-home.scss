@@ -1,20 +1,7 @@
-.text-gradient{
-
-	background-color: #042641; // Old browsers
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#042641+0,081738+37,0a0d2c+66,051d1f+100 */
-	background: rgb(4,38,65); /* Old browsers */
-	background: -moz-linear-gradient(45deg, rgba(4,38,65,1) 0%, rgba(8,23,56,1) 37%, rgba(10,13,44,1) 66%, rgba(5,29,31,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(45deg, rgba(4,38,65,1) 0%,rgba(8,23,56,1) 37%,rgba(10,13,44,1) 66%,rgba(5,29,31,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(45deg, rgba(4,38,65,1) 0%,rgba(8,23,56,1) 37%,rgba(10,13,44,1) 66%,rgba(5,29,31,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#042641', endColorstr='#051d1f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-
-
-}
 #page-home{
 
 	.bp-header {
-padding: 4em 10vw 2em;
+		padding: 4em 10vw 2em;
 	}
 
 	p{
@@ -23,9 +10,10 @@ padding: 4em 10vw 2em;
 	}
 	h1{
 		font-size: 60pt;
+		text-transform: none;
 	}
 	h2{
-		margin: 0px;
+		margin-top: -15px;
 	}
 	h3{
 		font-size: 20pt;
