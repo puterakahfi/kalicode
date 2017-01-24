@@ -4,7 +4,18 @@ var bs = require('browser-sync').create();
 var cleanCSS = require('gulp-clean-css');
 var minify = require('gulp-minify');
 var rename = require('gulp-rename');
-// Static server
+var clean = require('gulp-clean');
+
+var bases = {
+ dist: 'dist/',
+};
+
+// Delete the dist directory
+gulp.task('clean', function() {
+ return gulp.src(bases.dist)
+ .pipe(clean());
+});
+
 gulp.task('browser-sync', function() {
     bs.init({
         server: {
@@ -13,7 +24,7 @@ gulp.task('browser-sync', function() {
     });
 });
 
-gulp.task('default',["sass","watch"]); 
+gulp.task('default',["sass","css","js","watch"]); 
 
 gulp.task('sass', function () {
   return gulp.src('./src/scss/**/*.scss')
