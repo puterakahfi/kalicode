@@ -1,0 +1,11 @@
+{
+  "name": "kalicode-static-template",
+  "version": "1.0.0",
+  "description": "static template for kalicode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "puterakahfi@gmail.com",
+  "license": "ISC"
+}
